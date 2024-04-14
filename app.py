@@ -79,7 +79,7 @@ st.write(df_user_input.style.set_properties(**{'font-weight': 'bold'}))
 
 # Placeholder for displaying predicted quantity for 2023
 st.markdown("<hr>", unsafe_allow_html=True)
-st.write("<p class='title-text'><b>Predicted Quantity For 2023:</b></p>", unsafe_allow_html=True)
+st.write("<p class='title-text'><b>Predicted Quantity:</b></p>", unsafe_allow_html=True)
 
 # Filter data for the selected company name and substance name for the year 2022
 filtered_data = df_ML[(df_ML['Company name'] == df_user_input['Company Name'].iloc[0]) &
